@@ -1,5 +1,16 @@
 body {
-  background-color: #2E9AFE;\
-  font-size: 50px;
+  background-color: #	#F0F8FF;\
   font-weight: bold;
+}
+
+.title {
+  font-size: 50px;
+  font-family: serif, Georgia;
+  color: #696969;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-family: serif, Georgia;
+  color: #696969;
 }
