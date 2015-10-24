@@ -14,3 +14,10 @@ body {
   font-family: serif, Georgia;
   color: #696969;
 }
+
+img {
+	display: block;
+	height: 5em;
+	width: 20em;
+	margin: auto;
+}
