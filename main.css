@@ -3,13 +3,13 @@ body {
   font-weight: bold;
 }
 
-.title {
+.h1 {
   font-size: 50px;
   font-family: serif, Georgia;
   color: #696969;
 }
 
-.subtitle {
+.h2 {
   font-size: 30px;
   font-family: serif, Georgia;
   color: #696969;
