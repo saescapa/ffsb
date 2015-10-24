@@ -5,13 +5,19 @@ This is for you to be able to edit everything in here.
 ## First time:
 
 1. Make sure you have GIT installed: [Here](https://git-scm.com/downloads)
-2. Proceed with going into your folder through Terminal or Command-Line.
-  - Terminal || Command-Line:
-    - Typing ```cd``` will allow you to go into a folder.
+2. Proceed with going into your folder through Terminal or Command Prompt.
+  - Terminal (Mac):
+    - Typing ```cd FOLDER``` will allow you to go into FOLDER.
     - Typing ```ls``` will you give you the current FOLDERS you can 'cd' into.
-    - Typing ```pwd``` will give you your current position in folders.
+    - Typing ```cmd``` will give you your current position in folders.
     - Typing ```mkdir ffsb``` will create a folder with name ffsb in
       the current directory you are in (Type 'ls' to find out where you are).
+  - Command Line (Windows):
+  - Typing ```cd FOLDER``` will allow you to go into FOLDER.
+  - Typing ```dir``` will you give you the current FOLDERS you can 'cd' into.
+  - Typing ```echo %cd%``` will give you your current position in folders.
+  - Typing ```mkdir ffsb``` will create a folder with name ffsb in
+    the current directory you are in (Type 'ls' to find out where you are).
 3. You want to create a folder 'ffsb' that is easily accessible.
 4. Run ```git clone https://github.com/saescapa/ffsb.git``` in the Command
    Prompt / Terminal in the folder. You can double check you are in the right
