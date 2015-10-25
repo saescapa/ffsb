@@ -1,32 +1,100 @@
-body{
-  background-color:#BAD29C;
+
+@font-face{ 
+  font-family: 'ColabLig-webfont';
+  src: url('ColabLig-webfont.eot');
+  src: url('ColabLig-webfont.eot?iefix') format('eot'),
+       url('ColabLig-webfont.woff') format('woff'),
+       url('ColabLig-webfont.ttf') format('truetype'),
+       url('ColabLig-webfont.svg#webfont') format('svg');
 }
 
+@font-face{ 
+  font-family: 'ColabBol-webfont';
+  src: url('ColabBol-webfont.eot');
+  src: url('ColabBol-webfont.eot?iefix') format('eot'),
+       url('ColabBol-webfont.woff') format('woff'),
+       url('ColabBol-webfont.ttf') format('truetype'),
+       url('ColabBol-webfont.svg#webfont') format('svg');
+}
+
+body{
+  background-color:#F3FFBF;
+}
+
+
 img{
-  width: 40%;
-  height: 40%;
-  display:block;
-  margin:0 auto;
-  border: 5px #FFFFFF dotted;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+
+  /*border: 5px #FFFFFF dotted;*/
 }
 p {
-  color:#000000;
-  width:100%;
+  /*background-color: #A7BAAD;*/
+  color: black;
+  width: 100%;
   text-align: center;
-  font-size: 200%;
-  font-weight:bolder;
+  font-size: 90%;
+  font-weight: bold;
+  font-family: ColabLig-webfont;
 }
+
+li {
+  color: black;
+  width: 100%;
+  /*text-align: center;*/
+  font-size: 90%;
+  font-family: ColabLig-webfont;
+}
+
+h3 {
+  background-color: #A7BAAD;
+  color: black;
+  width: 100%;
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: ColabBol-webfont;
+}
+
 a{
-  color:#7493D5;
+  /*background-color: #A7BAAD;*/
+  color: #7493D5;
   font-weight:bolder;
   text-decoration: none;
   width: 100%;
   line-height: 100%;
-  display:block;
+  display: block;
   text-align:center;
-  font-size: 200%;
+  font-size: 90%;
+  font-family: ColabLig-webfont;
 }
+
 tr {
   background-color: #E6F5D4;
   width:100%;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr > th > p {
+  margin: auto;
+  text-align: left;
+  text-indent: 20px;
+}
+
+.d1 {
+  display: inline-block;
+  margin: 0 auto;
+  overflow: hidden;
+
 }
