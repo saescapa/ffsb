@@ -1,34 +1,39 @@
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-body.index {
-  background-color: #	#F0F8FF;\
+body {
+  /*background-color: #FF3333;*/
+    background-image: url("http://greatiphoneapps.org/file/2014/10/HD-Sunset-Wallpaper-iphone-6.jpg");
+  font-size: 50px;
   font-weight: bold;
 }
-
-.h1 {
-  font-size: 50px;
-  font-family: serif, Georgia;
-  color: #696969;
+/*p{
+    object-position: center
+    font:sans serif;
+    font-size:22;
+}*/
+tr td img src{
+    width:500px;
+    height:500px;
+}
+table, td {
+	border: 1px;
+}
+/*img.center {
+    display: block;
+    margin: 0 auto;
+}*/
+img{
+    width:15em;
+    height:15em;
 }
 
-.h2 {
-  font-size: 30px;
-  font-family: serif, Georgia;
-  color: #696969;
+thead th{
+    text-align: center;
 }
-
-img {
-	display: block;
-	height: 5em;
-	width: 20em;
+/*q{
+    border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 50px;
+	width: 120px;
 	margin: auto;
-}
-
-/* login.html */
-
-body.login {
-  background-color: #62b1ff;
-}
+	text-align: center;
+}*/
