@@ -3,6 +3,13 @@ body {
   color: #FFFFFF;
   font-weight: bold;
 }
+
+.div {
+  border-style: outset;
+  border-width: 5px;
+}
+
+
 /*p{
     object-position: center
     font:sans serif;
